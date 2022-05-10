@@ -1,7 +1,7 @@
 // IMPORT MODULES under test here:
 // import { example } from '../example.js';
 import { renderChild } from '../renderutils.js';
-import { children } from '../children.js';
+// import { children } from '../children.js';
 const test = QUnit.test;
 
 test('time to test the render Child function', (expect) => {

@@ -1,9 +1,27 @@
 /* add home page styles here */
-#redd {
-    width: 200px;  
+#children img {
+    width: 300px;
 }
 
+.child {
+    text-align: center;
+    display: flex;
+    flex-direction: column;   
+}
+div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* margin-bottom: 40px; */
+    background-size: cover;
+    height: 640px;
+    align-content: center;
+    position: relative;
+    padding: 50px;
+}
 main {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
+
+
