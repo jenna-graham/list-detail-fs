@@ -1,1 +1,9 @@
 /* add home page styles here */
+#redd {
+    width: 200px;  
+}
+
+main {
+    display: flex;
+    justify-content: flex-end;
+}
