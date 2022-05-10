@@ -4,9 +4,9 @@ export const children = [{
     name: 'Giyana',
     age: 13,
     favoriteFood: 'tacos',
-    image: './assets/giyana.jpg',
+    image: './assets/giyana.png',
     hobbies: ['making jewelry', 'drama club', 'hanging with friends'],
-    top: '200px',
+    top: '425px',
     left: '50%',
 },
 {
@@ -16,7 +16,7 @@ export const children = [{
     favoriteFood: 'lasagna',
     image: './assets/jaxson.png',
     hobbies: ['playing video games', 'basketball', 'swimming'],
-    top: '315px',
+    top: '265px',
     left: '38%',
 },
 {
@@ -26,7 +26,7 @@ export const children = [{
     favoriteFood: 'mac and cheese',
     image: './assets/malakai.png',
     hobbies: ['science projects', 'art', 'playing outside'],
-    top: '250px',
+    top: '400px',
     left: '65%',
 
 
@@ -38,7 +38,7 @@ export const children = [{
     favoriteFood: 'bully treats',
     image: './assets/redd.png',
     hobbies: ['playing fetch', 'going for walks', 'finding things in the trash'],
-    top: '310px',
+    top: '350px',
     left: '5%',
 },
 ];

@@ -1,27 +1,38 @@
 /* add home page styles here */
 #children img {
-    width: 300px;
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+   
+    
 }
 
 .child {
     text-align: center;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
+    /* border: dotted 2px black;
+    border-radius: 50%;    */
 }
 div {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     /* margin-bottom: 40px; */
-    background-size: cover;
-    height: 640px;
+    /* background-size: cover; */
+    /* height: 640px; */
     align-content: center;
     position: relative;
-    padding: 50px;
+    padding: 0px;
+    margins: 0px;
+    
 }
 main {
     display: flex;
     justify-content: center;
+}
+h1 {
+    padding-top: 0px;
 }
 
 

@@ -10,13 +10,11 @@ export function renderChild(child) {
     const img = document.createElement('img');
     img.src = child.image;
 
-    
+    const a = document.createElement('a');
+    a.href = `./child-details/?id=${child.id}`;
 
-    
-    div.append(h1, img,);
+    a.append(h1, img,);
+    div.append(a);
     return div;
 }
 
-export function findById(id, data) {
-    return data.find((item) => item.id === id);
-}
