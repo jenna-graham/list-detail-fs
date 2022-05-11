@@ -2,7 +2,7 @@ export function renderChild(child) {
     const div = document.createElement('div');
     div.classList.add('child');
     div.style.top = child.top;
-    div.style.bottom = child.bottom
+    div.style.bottom = child.bottom;
 
     const h1 = document.createElement('h1');
     h1.textContent = child.name;

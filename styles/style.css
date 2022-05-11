@@ -31,7 +31,7 @@ body {
     background-color: var(--color2);
     background-image: url(../assets/hoop.jpg);
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: scroll; */
     background-repeat: no-repeat;
     background-size: cover;
 }

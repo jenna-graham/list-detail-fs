@@ -7,13 +7,16 @@ const test = QUnit.test;
 test('time to test the render Child function', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = `<div class="child"><h1>giyana</h1><img src="./assets/giyana.jpg"></div>`;
-    
+    const expected = `<div class="child" style="top: 400px;"><a href="./child-details/?id=3"><h1>malakai</h1><img src="./assets/malakai.png"></a></div>`;
     //Act 
     // Call the function you're testing and set the result to a const
     const giyana = {
-        name: 'giyana',
-        image: './assets/giyana.jpg',
+        id: '3',
+        name: 'malakai',
+        type: 'malakai',
+        image: './assets/malakai.png',
+        top: '400px',
+        left: '65%',
     };
     const actual = renderChild(giyana);
 
