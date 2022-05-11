@@ -30,10 +30,14 @@ section {
 }
 ul {
     text-align: start;
+    font-size: 1.5em;
+    margin: 0;
 }
 p {
     border: solid 2px black;
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 2em;
 }
 a {
     flex-direction: start;
@@ -43,6 +47,13 @@ h2 {
     font-family: 'Smokum', cursive;
     font-size: 3em;
     margin: 0px;
-    padding-top: 20px;
-    color: rgb(28, 28, 67);
+    background-color: orange;
+    border: solid 2px rgb(240, 86, 14);
+    margin-bottom: 20px;
+    border-radius: 10%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+h1 {
+    font-size: 2em;
 }

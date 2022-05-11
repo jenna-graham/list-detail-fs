@@ -20,10 +20,10 @@ const childImage = document.createElement('img');
 childImage.src = `.${child.image}`;
 
 const p = document.createElement('p');
-p.textContent = `${child.name} is ${child.age} years old and loves to eat ${child.favoriteFood}!;`;
+p.textContent = `${child.name} is ${child.age} years old and loves to eat ${child.favoriteFood}!`;
 
 const h2 = document.createElement('h2');
-h2.textContent = `${child.name} loves to:`;
+h2.textContent = `${child.name} likes to:`;
 
 const ul = document.createElement('ul');
 for (let hobby of child.hobbies) {

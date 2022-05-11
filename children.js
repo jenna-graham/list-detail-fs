@@ -2,9 +2,8 @@
 export const children = [{
     id: '1',
     name: 'Giyana',
-    type: 'giyana',
     age: 13,
-    favoriteFood: 'tacos',
+    favoriteFood: 'crepes',
     image: './assets/giyana.png',
     hobbies: ['make jewelry', 'act in drama club', 'hang with friends'],
     bottom: '-150px',
@@ -13,7 +12,6 @@ export const children = [{
 {
     id: '2',
     name: 'Jaxson',
-    type: 'jaxson',
     age: 10,
     favoriteFood: 'lasagna',
     image: './assets/jaxson.png',
@@ -24,7 +22,6 @@ export const children = [{
 {
     id: '3',
     name: 'Malakai',
-    type: 'malakai',
     age: 6,
     favoriteFood: 'mac and cheese',
     image: './assets/malakai.png',
@@ -37,7 +34,6 @@ export const children = [{
 {
     id: '4',
     name: 'Redd',
-    type: 'redd',
     age: 1.5,
     favoriteFood: 'bully treats',
     image: './assets/redd.png',

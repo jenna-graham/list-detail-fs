@@ -91,6 +91,7 @@ footer {
     height: var(--footer-height);
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
+    background-color: rgb(28, 28, 67);
     box-shadow: var(--shadow);
+    color: var(--color1);
 }
