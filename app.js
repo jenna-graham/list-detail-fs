@@ -1,8 +1,11 @@
-// import functions and grab DOM elements
+import { children } from './children.js';
+import { renderChild } from './renderutils.js';
 
-// let state
+console.log(children);
 
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+const childList = document.getElementById('children');
+
+for (let child of children) {
+    const childDiv = renderChild(child);
+    childList.append(childDiv);
+}

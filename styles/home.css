@@ -1,1 +1,49 @@
 /* add home page styles here */
+@import url('https://fonts.googleapis.com/css2?family=Smokum&display=swap');
+#children img {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 30px;  
+}
+
+.child {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    position: relative;
+    padding: 0px;
+    margins: 0px;
+    
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1 {
+    padding-top: 0px;
+}
+h2 {
+    font-size: 5em;
+    font-family: 'Smokum', cursive;
+    border: dotted 8px orangered;
+    padding: 30px;
+    border-radius: 50%;
+    color: rgb(28, 28, 67);
+
+}
+section {
+    padding-right: 200px;
+}
+
+
